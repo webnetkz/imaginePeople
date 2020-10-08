@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 500ms;
+  outline: none;
+}
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+ }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Height */
+.H25 {
+  height: 25%;
+}
+.H33 {
+  height: 33.1%;
+}
+.H50 {
+  height: 50%;
+}
+.H75 {
+  height: 75%;
+}
+.H66 {
+  height: 66.7%;
+}
+.H100 {
+  height: 100%;
+}
+/* Width */
+.W50 {
+  width: 50%;
+}
+.W25 {
+  width: 25%;
+}
+.W100 {
+  width: 100%;
+}
+/* Display */
+.block {
+  display: block;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.none {
+  display: none;
+}
+/* Background Color */
+.bgRed {
+  background-color: red;
+}
+.bgBlue {
+  background-color: blue;
+}
+.bgBlack {
+  background-color: black;
+}
+.bgGreen {
+  background-color: green;
+}
+/* Margin */
+.m10 {
+  margin: 10px;
+}
+.ml3 {
+  margin-left: 3px;
+}
+/* Text Align */
+.TAcenter {
+  text-align: center;
+}
+.TAleft {
+  text-align: left;
+}
+.TAright {
+  text-align: right;
+}
+/* Background */
+.bgZoom {
+  background-size: 220%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition-duration: 600ms;
+}
+.bgZoom:hover {
+  background-size: 300%;
+}
+/* Vertival Align */
+.VAmiddle {vertical-align: middle}

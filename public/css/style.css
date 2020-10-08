@@ -1,0 +1,14 @@
+@import "helper.css";
+@import "flex.css";
+@import "animation.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700;800;900&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+}
+html, body {
+ font-family: 'Roboto Slab', serif;
+ background-color: rgb(255, 255, 255);
+ scroll-behavior: smooth;
+ overflow-x: hidden;
+}
