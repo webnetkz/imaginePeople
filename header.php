@@ -18,12 +18,12 @@
         font-size: 2rem;
         font-weight: 600;
     }
-    .people:nth-child(1) { animation: spin 0.5s infinite; animation-delay: 0.5s;}
-    .people:nth-child(2) { animation: spin 0.5s infinite; animation-delay: 0.8s;}
-    .people:nth-child(3) { animation: spin 0.5s infinite; animation-delay: 1.1s;}
-    .people:nth-child(4) { animation: spin 0.5s infinite; animation-delay: 1.3s;}
-    .people:nth-child(5) { animation: spin 0.5s infinite; animation-delay: 1.5s;}
-    .people:nth-child(6) { animation: spin 0.5s infinite; animation-delay: 1.8s;}
+    .people1 { animation: spin 0.5s infinite; animation-delay: 0.5s;}
+    .people2 { animation: spin 0.5s infinite; animation-delay: 0.8s;}
+    .people3 { animation: spin 0.5s infinite; animation-delay: 1.1s;}
+    .people4 { animation: spin 0.5s infinite; animation-delay: 1.3s;}
+    .people5 { animation: spin 0.5s infinite; animation-delay: 1.5s;}
+    .people6 { animation: spin 0.5s infinite; animation-delay: 1.8s;}
     .menuItem {
         padding: 0 1rem;
         font-size: 1.2rem;
@@ -41,12 +41,12 @@
 <header class="flex centerAI betweenJC">
     <div class="logo" onclick="location.href = '#'">
         <span class="imagine">IMAGINE</span>
-        <span class="people">P<span>
-        <span class="people">E</span>
-        <span class="people">O</span>
-        <span class="people">P</span>
-        <span class="people">L</span>
-        <span class="people">E</span>
+        <span class="people people1">P<span>
+        <span class="people people2">E</span>
+        <span class="people people3">O</span>
+        <span class="people people4">P</span>
+        <span class="people people5">L</span>
+        <span class="people people6">E</span>
     </div>
     <menu>
         <a href="#" class="menuItem">НОВОСТИ</a>
