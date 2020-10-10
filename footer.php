@@ -2,7 +2,7 @@
     footer {
         background: rgb(75, 75, 77);
         color: white;
-        height: 50vh;
+        height: 60vh;
         margin-top: -11vh;
         padding: 12vh 20%;
         text-align: center;
