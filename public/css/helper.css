@@ -18,6 +18,7 @@ a {
 .H25 {
   height: 25%;
 }
+.H30 {height: 30%}
 .H33 {
   height: 33.1%;
 }
@@ -37,6 +38,7 @@ a {
 .W50 {
   width: 50%;
 }
+.W20 {width: 20%}
 .W25 {
   width: 25%;
 }
@@ -57,25 +59,14 @@ a {
   display: none;
 }
 /* Background Color */
-.bgRed {
-  background-color: red;
-}
-.bgBlue {
-  background-color: blue;
-}
-.bgBlack {
-  background-color: black;
-}
-.bgGreen {
-  background-color: green;
-}
+.bgRed {background-color: red}
+.bgBlue {background-color: blue}
+.bgBlack {background-color: black}
+.bgGreen {background-color: green}
+.bgWhite {background-color: white}
 /* Margin */
-.m10 {
-  margin: 10px;
-}
-.ml3 {
-  margin-left: 3px;
-}
+.m10 {margin: 10px}
+.ml3 {margin-left: 3px}
 /* Text Align */
 .TAcenter {
   text-align: center;
@@ -98,3 +89,14 @@ a {
 }
 /* Vertival Align */
 .VAmiddle {vertical-align: middle}
+.VAtop {vertical-align: top}
+.VAbottom {vertical-align: bottom}
+.VAsub {vertical-align: sub}
+.VAsuper {vertical-align: super}
+.VAtext-bottom {vertical-align: text-bottom}
+.VAtext-top {vertical-align: text-top}
+/* Float */
+.floatL {float: left}
+.floatR {float: right}
+/* Margin */
+.M10p {margin: 10px}

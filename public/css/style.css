@@ -7,61 +7,132 @@
  padding: 0;
 }
 html, body {
-    font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
  background-color: rgb(255, 255, 255);
  scroll-behavior: smooth;
  overflow-x: hidden;
 }
 .one {
+    box-sizing: border-box;
     position: relative;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
+    z-index: 1;
     background-image: url('../img/photo/slider1.webp');
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
-.two {
+.counter {
     position: relative;
-    top: -11vh;
+    left: 0;
+    margin-top: -10vh;
+    width: 100vw;
+    height: 70vh;
+    z-index: 0;
+}
+.counter > div {
+    padding: 12vh 5%;
+}
+.products {
+    position: relative;
+    margin-top: -16vh;
     left: 0;
     width: 100vw;
-    height: 60vh;
+    height: 120vh;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    padding: 10vh 0;
+    background-image: url('../img/photo/user_ImgID1.webp');
+    background-size: cover;
 }
-.three {
-    position: relative;
-    top: -21vh;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
-}
-.two > div {
-    position: relative;
-    top: -11vh;
-    z-index: -1;
-    padding: 15% 10%;
-    height: 200%;
+.cartProduct {
+    background: white;
+    margin: 30px;
     width: 100%;
 }
-.twoOne {
-    color: black;
-    background-color: rgb(255, 255, 255)!important;
+.cartProduct p {
+    color: rgb(26, 133, 199);
+    text-shadow: none;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
-.twoOne img {
-    height: 5rem;
+.cartProduct span {
+    color: rgb(26, 133, 199);
 }
-.twoTwo {
-    background-color: rgb(230, 231, 232);
+.cartProduct > div {
+    height: 25vh;
 }
+.imgProd {
+    height: 100%;
+}
+.video {
+    position: relative;
+    margin-top: -29vh;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    z-index: 1;
+    background-color: white;
+    clip-path: polygon(0 10%, 100% 0, 100% 80%, 0% 100%);
+    background-image: url('../img/photo/video.webp');
+    background-size: cover;
+    background-position: center;
+}
+.video div {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    padding: 30vh;
+    color: white;
+    background-color: rgba(26, 133, 199, 0.6);
+}
+.video:hover {
+    cursor: pointer;
+}
+.video:hover img {
+    transform: rotate(360deg) scale(1.2);
+}
+.video:hover div {
+    margin-left: 170px;
+    background-color: rgba(26, 133, 199, 0.8);
+}
+.about {
+    position: relative;
+    margin-top: -17vh;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    z-index: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+.contact {
+    position: relative;
+    margin-top: -15vh;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    padding: 10% 20%;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    color: rgb(75, 75, 77);
+}
+.map {
+    position: relative;
+    margin-top: -11vh;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    clip-path: polygon(0 20%, 100% 0, 100% 85%, 0% 100%);
+}
+
 /* Slider1 */
 .slider1 {
+    box-sizing: border-box;
     position: relative;
-    top: 100px;
-    height: calc(100vh - 100px);
+    top: 0;
+    height: 100vh;
 }
 .slider1 > h2, h3, p {
     color: rgb(255, 255, 255);
@@ -92,6 +163,14 @@ html, body {
     position: relative;
     top: 45vh;
     left: 10vw;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 1.1rem;
+    background: rgb(26, 133, 199);
+}
+.linkBtnX {
+    position: relative;
+    top: 35px;
     color: rgb(255, 255, 255);
     padding: 8px;
     font-size: 1.1rem;
