@@ -35,7 +35,7 @@
         letter-spacing: 5px;
     }
     @keyframes spin {
-        50% { transform: rotateY(360deg) }
+                50% { text-shadow: 0 0 10px white; box-shadow: 0 0 10px blue; box-shadow: 0 0 20px blue; }}
     }
 </style>
 <header class="flex centerAI betweenJC">
