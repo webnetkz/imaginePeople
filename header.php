@@ -13,7 +13,12 @@
     .imagine {
         font-size: 2rem;
         font-weight: 100;
+		border-bottom: 3px solid rgba(0, 0, 0, 0);
     }
+	.imagine:hover {
+		border-bottom: 3px solid white;
+		cursor: pointer
+	}
     .people {
         font-size: 2rem;
         font-weight: 600;
@@ -35,7 +40,9 @@
         letter-spacing: 5px;
     }
     @keyframes spin {
-                50% { text-shadow: 0 0 10px white; box-shadow: 0 0 10px blue; box-shadow: 0 0 20px blue; }}
+        50% { 
+			text-shadow: 0 0 10px white;
+		}
     }
 </style>
 <header class="flex centerAI betweenJC">
