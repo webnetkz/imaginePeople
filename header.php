@@ -5,8 +5,7 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100px;
-        background-color: rgba(0, 0, 0, 0.2);
+        height: 60px;
         padding: 0 30px;
         z-index: 99999999!important;
     }
@@ -35,7 +34,7 @@
         border-bottom: 3px solid rgba(0, 0, 0, 0);
     }
     .menuItem:hover {
-        border-bottom: 3px solid rgb(255, 255, 255);
+        /* border-bottom: 3px solid rgb(255, 255, 255); */
         text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);
         letter-spacing: 5px;
     }

@@ -1,4 +1,5 @@
-function reloadPage() {
-    window.location.reload();
-}
-// setInterval(reloadPage , 600);
+window.addEventListener('scroll', function() {
+    if(pageYOffset > 50) {
+        document.querySelector('header').style.color = 'red';
+    }
+});        

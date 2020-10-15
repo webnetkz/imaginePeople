@@ -33,13 +33,13 @@
         <div class="flex TAcenter col">
             <p>СОЦИАЛЬНЫЕ СЕТИ</p>
             <div class="flex row beetwenJC" style="margin-top: 30px">
-                <div style="background: white; border-radius: 50%; margin: 10px;">
+                <div style="background: white; border-radius: 50%; width: 64px; height: 64px; margin: 10px;">
                     <img src="public/img/icons/youtube.png" alt="" class="socialIcon">
                 </div>
-                <div style="background: white; border-radius: 50%; margin: 10px;">
+                <div style="background: white; border-radius: 50%; width: 64px; height: 64px; margin: 10px;">
                     <img src="public/img/icons/instagram.png" alt="" class="socialIcon">
                 </div>
-                <div style="background: white; border-radius: 50%; margin: 10px;">
+                <div style="background: white; border-radius: 50%;  width: 64px; height: 64px;margin: 10px;">
                     <img src="public/img/icons/telegram.png" alt="" class="socialIcon">
                 </div>
             </div>

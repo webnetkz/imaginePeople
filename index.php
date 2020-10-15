@@ -14,6 +14,15 @@
       <link rel="apple-touch-icon" href="/public/img/logo.png">
       <link rel="stylesheet" type="text/css" href="public/css/style.css">
       <link rel="stylesheet" href="public/css/mobileStyle.css">
+      <style>
+        [data-num]:before {
+          content: "+";
+          opacity: 0;
+        }
+        [data-num]:after {
+          content: "+";
+        }
+      </style>
     </head>
     <body>
       <?php require_once 'header.php'; ?>
@@ -28,35 +37,97 @@
           </p>
           <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
           <div class="paginationSlider VAmiddle">
-              <span class="pagination activePagination">⬤</span>
-              <span class="pagination">⬤</span>
-              <span class="pagination">⬤</span>
+              <span class="pagination activePagination" onclick="slide1()">⬤</span>
+              <span class="pagination" onclick="slide2()">⬤</span>
+              <span class="pagination" onclick="slide3()">⬤</span>
           </div>
           <img src="public/img/photo/water1.webp" alt="imagine people" class="imgSlider1">
       </div>
       </div>
+
+      <div class="two">
+        <div class="slider1">
+          <h2>ПОЧУВСТВУЙ2</h2>
+          <h3>СИЛУ ПРИРОДЫ2</h3>
+          <p>
+              достаточно добавить несколько капель Water for Life
+              в обычную питьевую воду, и вода станет биогенной,
+              то есть живой.
+          </p>
+          <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
+          <div class="paginationSlider VAmiddle">
+            <span class="pagination" onclick="slide1()">⬤</span>
+            <span class="pagination activePagination" onclick="slide2()">⬤</span>
+            <span class="pagination" onclick="slide3()">⬤</span>
+          </div>
+          <img src="public/img/photo/water1.webp" alt="imagine people" class="imgSlider1">
+      </div>
+      </div>
+
+      <div class="three">
+        <div class="slider1">
+          <h2>ПОЧУВСТВУЙ3</h2>
+          <h3>СИЛУ ПРИРОДЫ3</h3>
+          <p>
+              достаточно добавить несколько капель Water for Life
+              в обычную питьевую воду, и вода станет биогенной,
+              то есть живой.
+          </p>
+          <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
+          <div class="paginationSlider VAmiddle">
+            <span class="pagination" onclick="slide1()">⬤</span>
+            <span class="pagination" onclick="slide2()">⬤</span>
+            <span class="pagination activePagination" onclick="slide3()">⬤</span>
+          </div>
+          <img src="public/img/photo/water1.webp" alt="imagine people" class="imgSlider1">
+      </div>
+      </div>
+
+      <script>
+        let pagns = document.querySelectorAll('.pagination');
+
+        console.log(pagns);
+
+        function slide1() {
+          document.querySelector('.one').style.display = 'block';
+          document.querySelector('.two').style.display = 'none';
+          document.querySelector('.three').style.display = 'none';
+        }
+        function slide2() {
+          document.querySelector('.two').style.display = 'block';
+          document.querySelector('.one').style.display = 'none';
+          document.querySelector('.three').style.display = 'none';
+        }
+        function slide3() {
+          document.querySelector('.three').style.display = 'block';
+          document.querySelector('.one').style.display = 'none';
+          document.querySelector('.two').style.display = 'none';
+        }
+
+      </script>
+
       <div class="counter flex row">
         <div class="flex col W50 H100" style="">
           <div class="flex H30 M10p">
             <img src="public/img/icons/user.png" alt="" style="width: 15%; margin-left: 5%; margin-right: calc(40px + 5%);">
-            <span style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
-              73000+
+            <span data-num="7300" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
+              0
               <br>
               <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">ПАРТНЕРОВ ПО ВСЕМУ МИРУ</span>
             </span>
           </div>
           <div class="flex H30 M10p">
             <img src="public/img/icons/home.png" alt="" class="W25" style="margin-right: 40px;">
-            <span style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
-              182+
+            <span data-num="182" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
+              0
               <br>
               <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">SHOW ROOMS</span>
             </span>
           </div>
           <div class="flex H30 M10p">
             <img src="public/img/icons/net.png" alt="" class="W25" style="margin-right: 40px;">
-            <span style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
-              3+
+            <span data-num="3" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
+              0
               <br>
               <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">ПРЕДСТАВИТЕЛЬСТВ ПО ВСЕМУ МИРУ</span>
             </span>
@@ -182,6 +253,47 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.512919637556!2d76.92624907202593!3d43.229917896312074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f283211e715%3A0x89563f3c0010d4b0!2z0YPQu9C40YbQsCDQn9C40YDQvtCz0L7QstCwIDUwLCDQkNC70LzQsNGC0Ys!5e0!3m2!1sru!2skz!4v1602330502203!5m2!1sru!2skz" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <?php require_once 'footer.php'; ?>
+      <script>
+        window.addEventListener('scroll', function() {
+            if(pageYOffset > 200) {
+                document.querySelector('header').style.background = 'rgba(0, 0, 0, 0.5)';
+            } else {
+              document.querySelector('header').style.background = 'rgba(0, 0, 0, 0)';
+            }
+        });
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+    var time = 2, cc = 1;
+    $(window).scroll(function(){
+        $('.counter').each(function() {
+            var cPos = $(this).offset().top;
+            var topWindow = $(window).scrollTop();
+            
+            if(cPos < topWindow + 500) {
+                if(cc < 2) {
+
+                        $('span').each(function() {
+                            var
+                            i = 1,
+                            num = $(this).data('num'),
+                            step = 100 * time / num,
+                            that = $(this),
+                            int = setInterval(function() {
+                                if(i <= num) {
+                                    that.html(i);
+                                } else {
+                                    cc = cc + 2;
+                                    clearInterval(int);
+                                }
+                                i++
+                            }, step);
+                        });
+                }
+            }
+        });
+    });
+</script>
     </body>
 </html>
 

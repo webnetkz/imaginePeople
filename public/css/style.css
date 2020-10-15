@@ -23,7 +23,58 @@ html, body {
     background-image: url('../img/photo/slider1.webp');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    animation: showSliderBg 0.5s linear;
 }
+.two {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-image: url('../img/photo/user_ImgID1.webp');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    animation: showSliderBg 0.5s linear;
+}
+.three {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-image: url('../img/photo/cartBg.webp');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    animation: showSliderBg 0.5s linear;
+}
+@keyframes showSliderBg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* @keyframes slider {
+    0% {
+        left: 100vw;
+    }
+    50% {
+        left: 100vw;
+    }
+    60% {
+        left: 0;
+    }
+    100% {
+        left: 0;
+    }
+} */
 .counter {
     position: relative;
     left: 0;
@@ -96,7 +147,6 @@ html, body {
     transform: rotate(360deg) scale(1.2);
 }
 .video:hover div {
-    margin-left: 170px;
     background-color: rgba(26, 133, 199, 0.8);
 }
 .about {
@@ -144,12 +194,15 @@ html, body {
     top: 30vh;
     left: 10vw;
     font-weight: 900;
+    animation: showSliderElem 0.6s linear;
 }
 .slider1 > h3 {
     font-size: 3.5rem;
     top: 30vh;
     left: 10vw;
     font-weight: 900;
+    animation: showSliderElem 0.6s linear;
+    animation-delay: 0.3s;
 }
 .slider1 > p {
     font-size: 1rem;
@@ -157,6 +210,8 @@ html, body {
     left: 10vw;
     font-weight: 400;
     width: 30vw;
+    animation: showSliderElem 0.6s linear;
+    animation-delay: 0.6s;
 }
 .linkBtn {
     display: inline-block;
@@ -167,6 +222,8 @@ html, body {
     padding: 8px;
     font-size: 1.1rem;
     background: rgb(26, 133, 199);
+    animation: showSliderElem 0.6s linear;
+    animation-delay: 0.9s;
 }
 .linkBtnX {
     position: relative;
@@ -181,6 +238,7 @@ html, body {
     position: absolute;
     top: 15vh;
     right: 10vw;
+    animation: showSliderElemR 0.6s linear;
 }
 .slider1 > .paginationSlider {
     position: relative;
@@ -198,4 +256,22 @@ html, body {
 }
 .activePagination {
     color: rgb(255, 255, 255);
+}
+@keyframes showSliderElem {
+    0% {
+        opacity: 0;
+        left: -60px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes showSliderElemR {
+    0% {
+        opacity: 0;
+        right: -60px;
+    }
+    100% {
+        opacity: 1;
+    }
 }
