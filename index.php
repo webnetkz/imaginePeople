@@ -156,13 +156,16 @@
       </div>
       <div class="products TAcenter">
         <h1 style="color: white; font-size: 3rem; font-weight: 900; margin-top: 15vh; text-shadow: 0 0 15px black;">НАШИ ПРОДУКТЫ</h1>
-        <div class="flex row aroundJC" style="padding: 2% 20%;">
-          <div class="flex col cartProduct">
+        <div class="flex row aroundJC carusel">
+
+          <span class="arrow" onclick="backCarusel()"><</span>
+
+          <div class="flex col cartProduct none">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
-            <div style="padding: 0 30px;">
-              <p>G-Bio</p>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio0</p>
               <span>достаточно добавить несколько капель
               water for life в обычную питьевую
               воду, и вода станет биогенной,
@@ -170,12 +173,12 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
-          <div class="flex col cartProduct">
+          <div class="flex col cartProduct none">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div> 
-            <div style="padding: 0 30px;">
-              <p>G-Bio</p>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio1</p>
               <span>достаточно добавить несколько капель
               water for life в обычную питьевую
               воду, и вода станет биогенной,
@@ -183,12 +186,12 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>      
           </div>
-          <div class="flex col cartProduct">
+          <div class="flex col cartProduct none">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
-            <div style="padding: 0 30px;">
-              <p>G-Bio</p>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio2</p>
               <span>достаточно добавить несколько капель
               water for life в обычную питьевую
               воду, и вода станет биогенной,
@@ -196,7 +199,58 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
+          <div class="flex col cartProduct none">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio3</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+          <div class="flex col cartProduct none">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio4</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+          <div class="flex col cartProduct none">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio5</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+
+          <span class="arrow" onclick="nextCarusel()">></span>
+
         </div>
+
+        
+        <script>
+          let carts = docuement.querySelectorAll('.cartPoduct');
+          carts[0].style.display = 'block';
+        </script>
+
+
+
       </div>
       <div class="video" onclick='location.href = "https:\/\/google.com"'>
         <div class="TAcenter">

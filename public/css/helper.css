@@ -47,7 +47,7 @@ a {
 }
 /* Display */
 .block {
-  display: block;
+  display: block!important;
 }
 .inlineBlock {
   display: inline-block;
@@ -56,7 +56,7 @@ a {
   display: inline;
 }
 .none {
-  display: none;
+  display: none!important;
 }
 /* Background Color */
 .bgRed {background-color: red}

@@ -99,7 +99,23 @@ html, body {
     background-image: url('../img/photo/user_ImgID1.webp');
     background-size: cover;
 }
+.carusel {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+}
+.arrow {
+    font-size: 7rem;
+    position: relative;
+    top: 15rem;
+    color: rgb(132, 134, 136);
+}
+.arrow:hover {
+    cursor: pointer;
+    color: rgb(218, 230, 241);
+}
 .cartProduct {
+    position: relative;
     background: white;
     margin: 10px;
     width: 100%;
@@ -226,8 +242,8 @@ html, body {
     animation-delay: 0.9s;
 }
 .linkBtnX {
+    display: block;
     position: relative;
-    top: 35px;
     color: rgb(255, 255, 255);
     padding: 8px;
     font-size: 1.1rem;
