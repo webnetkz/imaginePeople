@@ -77,7 +77,7 @@
     }
 </style>
 <header class="flex centerAI betweenJC">
-    <div class="logo" onclick="location.href = '#'">
+    <div class="logo" onclick="location.href = 'index.php'">
         <span class="imagine">IMAGINE</span>
         <span class="people people1">P<span>
         <span class="people people2">E</span>
@@ -91,7 +91,7 @@
         <a href="#" class="menuItem">НОВОСТИ</a>
         <a href="#" class="menuItem">АКЦИИ</a>
         <a href="#" class="menuItem">ПРОДУКТЫ</a>
-        <a href="#" class="menuItem">SHOW ROOMS</a>
+        <a href="showrooms.php" class="menuItem">SHOW ROOMS</a>
         <a href="#" class="menuItem">БИЗНЕС</a>
         <a href="#" class="menuItem">О КОМПАНИИ</a>
     </menu>

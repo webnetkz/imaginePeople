@@ -6,10 +6,13 @@
         margin-top: -11vh;
         padding: 12vh 20%;
         text-align: center;
+        position: relative;
+        z-index: 999;
     }
     footer p {
         text-shadow: none;
         font-weight: 900;
+        color: white;
     }
     .p1b1 {
         font-weight: 300;
