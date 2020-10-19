@@ -1,3 +1,334 @@
-@media only screen and (max-width: 1280px) {
+@media screen and (max-device-width: 900px) {
+    .one {
+        box-sizing: border-box;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background-image: url('../img/photo/slider1.webp');
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        animation: showSliderBg 0.5s linear;
+    }
+    .two {
+        display: none;
+        box-sizing: border-box;
+        position: relative;
+        top: 0;
+        left: 0vw;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background-image: url('../img/photo/user_ImgID1.webp');
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        animation: showSliderBg 0.5s linear;
+    }
+    .three {
+        display: none;
+        box-sizing: border-box;
+        position: relative;
+        top: 0;
+        left: 0vw;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background-image: url('../img/photo/cartBg.webp');
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        animation: showSliderBg 0.5s linear;
+    }
+    @keyframes showSliderBg {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /* @keyframes slider {
+        0% {
+            left: 100vw;
+        }
+        50% {
+            left: 100vw;
+        }
+        60% {
+            left: 0;
+        }
+        100% {
+            left: 0;
+        }
+    } */
+    .counter {
+        position: relative;
+        left: 0;
+        margin-top: -10vh;
+        width: 100vw;
+        height: 170vh;
+        z-index: 0;
+        flex-direction: column;
+    }
+    .counter > div {
+        width: 100vw;
+        padding: 12vh 5%;
+    }
+    .counterTwoDivImg {
+        margin-left: 0px!important;
+        margin-top: 50px!important;
+    }
+    .counter > div > div > img {
+        height: 100px;
+        width: 100px;
+    }
+    .counter > div > div > span {
+        position: relative;
+        left: -65px;
+        min-width: 70%;
+    }
+    .textCounter {
+        font-size: 1rem!important;
+        position: relative!important;
+        top: 6rem!important;
+        margin-left: -180px!important;
+    }
+    .products {
+        position: relative;
+        margin-top: -16vh;
+        left: 0;
+        width: 100vw;
+        height: 120vh;
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+        padding: 10vh 0;
+        background-image: url('../img/photo/user_ImgID1.webp');
+        background-size: cover;
+    }
+    .carusel {
+        position: relative;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .arrow {
+        font-size: 7rem;
+        position: relative;
+        top: 15rem;
+        color: rgb(132, 134, 136);
+    }
+    .arrow:hover {
+        cursor: pointer;
+        color: rgb(218, 230, 241);
+    }
+    .cartProduct {
+        position: relative;
+        background: white;
+        margin: 10px;
+        width: 100%;
+    }
+    .cartProduct p {
+        color: rgb(26, 133, 199);
+        text-shadow: none;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .cartProduct span {
+        color: rgb(26, 133, 199);
+    }
+    .cartProduct > div {
+        height: 30vh;
+    }
+    .imgProd {
+        height: 100%;
+    }
+    .video {
+        position: relative;
+        margin-top: -29vh;
+        left: 0;
+        width: 100vw;
+        height: 85vh;
+        z-index: 1;
+        background-color: white;
+        clip-path: polygon(0 10%, 100% 0, 100% 80%, 0% 100%);
+        background-image: url('../img/photo/video.webp');
+        background-size: cover;
+        background-position: center;
+    }
+    .video div {
+        position: relative;
+        z-index: 0;
+        height: 100%;
+        width: 100%;
+        padding: 30vh 5vw;
+        color: white;
+        background-color: rgba(26, 133, 199, 0.6);
+    }
+    .video:hover {
+        cursor: pointer;
+    }
+    .video:hover img {
+        transform: rotate(360deg) scale(1.2);
+    }
+    .video:hover div {
+        background-color: rgba(26, 133, 199, 0.8);
+    }
+    .about {
+        flex-direction: column;
+        position: relative;
+        margin-top: -17vh;
+        left: 0;
+        width: 100vw;
+        height: 190vh;
+        z-index: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    .aboutOne {
+        padding-top: 40%;
+        background: rgb(75, 75, 77);
+    }
+    .aboutTwo {
+        background: url('../img/photo/user_img2.webp');
+        background-size: cover;
+        background-position: center center;
+        color: rgb(75, 75, 77);
+    }
+    .aboutTwo > div {
+        padding: 3%!important;
+    }
+    .aboutTwo > div > p:last-child {
+        margin-top: 2rem!important;
+    }
+    .about > div {
+        width: 100vw;
+    }
+    .contact {
+        position: relative;
+        margin-top: -15vh;
+        left: 0;
+        width: 100vw;
+        height: 110vh;
+        padding: 10% 20%;
+        padding-top: 20%;
+        /* clip-path: polygon(0 20%, 100% 0, 100% 90%, 0% 100%); */
+        color: rgb(75, 75, 77);
+    }
+    .contact > div {
+        flex-direction: column;
+    }
+    .contactImg {
+        display: block!important;
+        margin: 10px auto!important;
+    }
+    .map {
+        position: relative;
+        margin-top: -11vh;
+        left: 0;
+        width: 100vw;
+        height: 70vh;
+        clip-path: polygon(0 20%, 100% 0, 100% 85%, 0% 100%);
+    }
     
+    /* Slider1 */
+    .slider1 {
+        box-sizing: border-box;
+        position: relative;
+        top: 0;
+        height: 100vh;
+    }
+    .slider1 > h2, h3, p {
+        color: rgb(255, 255, 255);
+        position: relative;
+        text-shadow: 0 0 20px black;
+    }
+    .slider1 > h2 {
+        font-size: 1.5rem;
+        top: 10vh;
+        left: 10vw;
+        font-weight: 900;
+        animation: showSliderElem 0.6s linear;
+    }
+    .slider1 > h3 {
+        font-size: 2.5rem;
+        top: 10vh;
+        left: 10vw;
+        font-weight: 900;
+        animation: showSliderElem 0.6s linear;
+        animation-delay: 0.3s;
+    }
+    .slider1 > p {
+        font-size: 1rem;
+        top: 52vh;
+        left: 10vw;
+        font-weight: 400;
+        width: 90vw;
+        animation: showSliderElem 0.6s linear;
+        animation-delay: 0.6s;
+    }
+    .linkBtn {
+        display: inline-block;
+        position: relative;
+        top: 55vh;
+        left: 10vw;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        font-size: 1.1rem;
+        background: rgb(26, 133, 199);
+        animation: showSliderElem 0.6s linear;
+        animation-delay: 0.9s;
+    }
+    .linkBtnX {
+        display: block;
+        position: relative;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        font-size: 1.1rem;
+        background: rgb(26, 133, 199);
+    }
+    .imgSlider1 {
+        z-index: -1;
+        height: 70vh;
+        position: absolute;
+        top: 15vh;
+        left: 2vw;
+        animation: showSliderElemR 0.6s linear;
+    }
+    .slider1 > .paginationSlider {
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+    }
+    .pagination {
+        padding: 0 10px;
+        color: rgb(100, 100, 100);
+    }
+    .pagination:hover {
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    .activePagination {
+        color: rgb(255, 255, 255);
+    }
+    @keyframes showSliderElem {
+        0% {
+            opacity: 0;
+            left: -60px;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes showSliderElemR {
+        0% {
+            opacity: 0;
+            right: -60px;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+
 }

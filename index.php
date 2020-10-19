@@ -109,28 +109,28 @@
       <div class="counter flex row">
         <div class="flex col W50 H100" style="">
           <div class="flex H30 M10p">
-            <img src="public/img/icons/user.png" alt="" style="width: 15%; margin-left: 5%; margin-right: calc(40px + 5%);">
+            <img src="public/img/icons/user.png" alt="" class="W25" style="margin-right: 40px;">
             <span data-num="7300" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
               0
-              <br>
-              <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">ПАРТНЕРОВ ПО ВСЕМУ МИРУ</span>
             </span>
+            <br>
+            <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="textCounter">ПАРТНЕРОВ ПО ВСЕМУ МИРУ</span>
           </div>
           <div class="flex H30 M10p">
-            <img src="public/img/icons/home.png" alt="" class="W25" style="margin-right: 40px;">
+            <img src="public/img/icons/home.png" alt=""  class="W25" style="margin-right: 40px;">
             <span data-num="182" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
               0
-              <br>
-              <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">SHOW ROOMS</span>
             </span>
+            <br>
+            <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="textCounter">SHOW ROOMS</span>
           </div>
           <div class="flex H30 M10p">
             <img src="public/img/icons/net.png" alt="" class="W25" style="margin-right: 40px;">
             <span data-num="3" style="font-size: 5rem; font-weight: 500; color: rgb(26, 133, 199);">
               0
-              <br>
-              <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="VAtop">ПРЕДСТАВИТЕЛЬСТВ ПО ВСЕМУ МИРУ</span>
             </span>
+            <br>
+            <span style="font-size: 1.2rem; color: rgb(75, 75, 77); font-weight: 900;" class="textCounter">ПРЕДСТАВИТЕЛЬСТВ ПО ВСЕМУ МИРУ</span>
           </div>
         </div>
         <div class="flex col W50 H100" style="background: rgba(0, 0, 0, 0.1); color: rgb(75, 75, 77); padding: 7% 3%;">
@@ -138,7 +138,7 @@
             <h2 class="" style="padding-left: 30px; font-weight: 900">ОТКРОЙ ДЛЯ СЕБЯ</h2>
             <h1 class="" style="font-size: 4rem; font-weight: 900">IMAGINE PEOPLE</h1>
           </div>
-          <div class="flex row" style="margin-left: -60px; margin-top: 50px;">
+          <div class="flex row counterTwoDivImg">
             <div class="TAcenter">
               <img src="public/img/icons/heart.png" alt="" class="W50">
               <span class="block" style="font-weight: 900; font-size: 1.4rem">ЗДОРОВЬЕ</span>
@@ -245,8 +245,8 @@
 
         
         <script>
-          let carts = docuement.querySelectorAll('.cartPoduct');
-          carts[0].style.display = 'block';
+          // let carts = docuement.querySelectorAll('.cartPoduct');
+          // carts[0].style.display = 'block';
         </script>
 
 
@@ -260,7 +260,7 @@
         </div>
       </div>
       <div class="about flex row">
-        <div class="flex col W50 H100" style="padding: 10% 3%; background: rgb(75, 75, 77);">
+        <div class="flex col W50 H100 aboutOne">
           <h1 class="TAright" style="color: white; font-size: 3rem; font-weight: 900;">ЧТО О НАС</h1>
           <h1 class="TAright" style="color: white; font-size: 3rem; font-weight: 900;">ГОВОРЯТ ЛЮДИ</h1>
           <p class="TAright" style="text-shadow: none; margin-top: 3rem;">Мы отбираем самое интересное, что есть на сегодняшний день на рынке,
@@ -271,7 +271,7 @@
             создает своё собственное производство с возможным участием
             в акционировании партнеров компании!</p>
         </div>
-        <div class="flex col W50 H100" style="background: url('public/img/photo/user_img2.webp'); background-size: cover; color: rgb(75, 75, 77);">
+        <div class="flex col W50 H100 aboutTwo">
           <div style="width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); padding: 20% 5%;">
             <p class="TAleft" style="color: white; text-shadow: none; font-size: 1.4rem;">Гипертония – около 30 лет, сахарный диабет – около
             20 лет (сахар 12 йод). После 3-х месяцев употребления
@@ -287,16 +287,16 @@
        <h1 style="font-weight: 900; font-size: 3rem">СВЯЗЬ С НАМИ</h1>
         <div class="flex row aroundJC" style="margin-top: 40px;">
           <div class="flex col TAcenter">
-            <img src="public/img/icons/phone.png" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
+            <img src="public/img/icons/phone.png" class="contactImg" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
               <a href="tel:+77273645330" class="" style="font-weight: 500;">+7 (727) 364 53 30</a>
               <a href="tel:+77767575757" class="" style="font-weight: 500;">+7 (776) 757 57 57</a>
           </div>
           <div class="flex col TAcenter">
-            <img src="public/img/icons/letters.png" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
+            <img src="public/img/icons/letters.png" class="contactImg" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
             <p style="color: rgb(75, 75, 77); text-shadow: none; font-weight: 500;">info@ip-one.net</p>
           </div>
           <div class="flex col TAcenter">
-            <img src="public/img/icons/place.png" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
+            <img src="public/img/icons/place.png" class="contactImg" alt="" style="height: 80px; width: 80px; margin-bottom: 30px; margin-left: 40px;">
               <p style="color: rgb(75, 75, 77); text-shadow: none; font-weight: 500;">Республика Казахстан,</p>
               <p style="color: rgb(75, 75, 77); text-shadow: none; font-weight: 500;">050040,город Алматы,</p>
               <p style="color: rgb(75, 75, 77); text-shadow: none; font-weight: 500;">мкр. Коктем-, дом 50</p>

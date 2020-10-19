@@ -18,12 +18,28 @@
         margin: 15px;
         width: 30px;
     }
+    @media screen and (max-device-width: 900px) {
+        footer {
+            height: 130vh;
+        }
+        .footerImg{
+            width: 80%!important;
+        }
+        .footerFlex {
+            flex-direction: column;
+        }
+        .footerFlex > div {
+            width: 100%!important;
+            padding: 30px 0!important;
+            border: none!important;
+        }
+    }
 </style>
 <footer>
     <div>
-        <img src="public/img/logo.png" alt="" style="width: 20%;">
+        <img src="public/img/logo.png" alt="" class="footerImg" style="width: 20%;">
     </div>
-    <div class="flex row aroundJC" style="margin-top: 30px;">
+    <div class="flex row aroundJC footerFlex" style="margin-top: 30px;">
         <div class="flex TAcenter col" style="border-right: 1px solid rgb(200, 200, 200); padding-right: 65px;">
             <p>АДРЕС</p>
             <p class="p1b1" style="margin-top: 50px;">Республика Казахстан,</p>

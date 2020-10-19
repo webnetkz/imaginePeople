@@ -43,6 +43,15 @@
 			text-shadow: 0 0 10px white;
 		}
     }
+    @media screen and (max-device-width: 900px) {
+        header {
+            padding: 0 10px;
+            justify-content: around;
+        }
+        menu {
+            display: none;
+        }
+    }
 </style>
 <header class="flex centerAI betweenJC">
     <div class="logo" onclick="location.href = '#'">

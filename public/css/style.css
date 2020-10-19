@@ -86,6 +86,20 @@ html, body {
 .counter > div {
     padding: 12vh 5%;
 }
+.counter > div > div > span {
+    width: 100%;
+}
+.textCounter {
+    font-size: 1.3rem!important;
+    position: relative!important;
+    top: 7rem!important;
+    left: -30%;
+    flex-grow: 3;
+}
+.counterTwoDivImg {
+    margin-left: -60px!important;
+    margin-top: 50px!important;
+}
 .products {
     position: relative;
     margin-top: -16vh;
@@ -173,6 +187,15 @@ html, body {
     height: 80vh;
     z-index: 0;
     clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+.aboutOne {
+    padding: 10% 3%;
+    background: rgb(75, 75, 77);
+}
+.aboutTwo {
+    background: url('../img/photo/user_img2.webp');
+    background-size: cover;
+    color: rgb(75, 75, 77);
 }
 .contact {
     position: relative;
