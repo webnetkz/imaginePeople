@@ -43,13 +43,33 @@
 			text-shadow: 0 0 10px white;
 		}
     }
+    .menuBurger {
+        display: none;
+    }
     @media screen and (max-device-width: 900px) {
         header {
             padding: 0 10px;
             justify-content: around;
         }
         menu {
-            display: none;
+            display: block;
+            position: fixed;
+            top: 50px;
+            left: 100vw;
+            width: 100vw;
+            height: calc(100vh - 50px);
+            background-color: rgba(0, 20, 170, 0.9);
+            display: flex;
+            flex-direction: column;
+            padding-top: 100px;
+        }
+        .menuItem {
+            padding: 20px 50px;
+        }
+        .menuBurger {
+            display: block!important;
+            width: 50px;
+            z-index: 88;
         }
     }
 </style>
@@ -63,6 +83,7 @@
         <span class="people people5">L</span>
         <span class="people people6">E</span>
     </div>
+    <img src="public/img/icons/menu.png" alt="" class="menuBurger" onclick="menu(this)">
     <menu>
         <a href="#" class="menuItem">НОВОСТИ</a>
         <a href="#" class="menuItem">АКЦИИ</a>
@@ -72,3 +93,15 @@
         <a href="#" class="menuItem">О КОМПАНИИ</a>
     </menu>
 </header>
+<script>
+    function menu() {        
+        let menuBurger = document.querySelector('.menuBurger');
+        let menu = document.querySelector('menu');
+        if(menu.style.left == '0px') {
+            menu.style.left = '100vw';
+        } else {
+            menu.style.left = '0';
+        }
+    }
+
+</script>

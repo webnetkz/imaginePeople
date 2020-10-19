@@ -104,6 +104,16 @@
           document.querySelector('.two').style.display = 'none';
         }
 
+        setTimeout(() => {
+          slide2();
+        }, 7000);
+        setTimeout(() => {
+          slide3();
+        }, 14000);
+        setTimeout(() => {
+          slide1();
+        }, 21000);
+
       </script>
 
       <div class="counter flex row">

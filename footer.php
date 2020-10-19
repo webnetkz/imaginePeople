@@ -31,7 +31,9 @@
         .footerFlex > div {
             width: 100%!important;
             padding: 30px 0!important;
-            border: none!important;
+            border-bottom: 1px solid white;
+            border-left: 0!important;
+            border-right: 0!important;
         }
     }
 </style>
