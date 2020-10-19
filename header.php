@@ -71,6 +71,9 @@
             width: 50px;
             z-index: 88;
         }
+        .menuBurger:focus {
+            right: -10px;
+        }
     }
 </style>
 <header class="flex centerAI betweenJC">
@@ -99,8 +102,10 @@
         let menu = document.querySelector('menu');
         if(menu.style.left == '0px') {
             menu.style.left = '100vw';
+            menuBurger.src = 'public/img/icons/menu.png';
         } else {
             menu.style.left = '0';
+            menuBurger.src = 'public/img/icons/close.png';
         }
     }
 
