@@ -1,4 +1,8 @@
 @media screen and (max-device-width: 900px) {
+    .headerAllpage {
+        animation: showHeader 3s infinite;
+        background-position: 0 -50%;
+    }
     .one {
         box-sizing: border-box;
         position: relative;

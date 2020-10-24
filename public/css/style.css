@@ -25,6 +25,23 @@ html, body {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     animation: showSliderBg 0.5s linear;
 }
+.headerAllpage {
+    animation: showHeader 3s infinite;
+}
+@keyframes showHeader {
+    0% {
+
+    }
+    40% {
+        filter: brightness(1)
+    }
+    50% {
+        filter: brightness(2)
+    }
+    60% {
+        filter: brightness(1)
+    }
+}
 .two {
     display: none;
     box-sizing: border-box;
@@ -82,6 +99,7 @@ html, body {
     width: 100vw;
     height: 85vh;
     z-index: 0;
+    overflow-x: hidden!important;
 }
 .counter > div {
     padding: 12vh 5%;
@@ -213,7 +231,7 @@ html, body {
     left: 0;
     width: 100vw;
     height: 70vh;
-    clip-path: polygon(0 20%, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
 }
 
 /* Slider1 */

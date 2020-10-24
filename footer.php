@@ -2,12 +2,13 @@
     footer {
         background: rgb(75, 75, 77);
         color: white;
-        height: 60vh;
-        margin-top: -11vh;
-        padding: 12vh 20%;
+        height: 40vh;
+        padding: 4vh 20% 2vh;
         text-align: center;
         position: relative;
         z-index: 999;
+        margin-top: -5vh;
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
     }
     footer p {
         text-shadow: none;
@@ -23,7 +24,9 @@
     }
     @media screen and (max-device-width: 900px) {
         footer {
-            height: 130vh;
+            margin-top: -5vh;
+            padding-top: 15vh;
+            height: 140vh;
         }
         .footerImg{
             width: 80%!important;
@@ -78,3 +81,4 @@
     </div>
     <p style="margin-top: 20px; font-weight: 300;">© 2020</p>
 </footer>
+<script src="public/js/main.js"></script>

@@ -62,19 +62,27 @@
             }
             .counter {
                 padding-left: 15px!important;
+                margin-top: 0px!important;
             }
             .Elems {
                 height: 8rem;
+            }
+            h1 {
+                font-size: 3rem!important;
+            }
+            .one {
+                background-size: cover!important;
+                background-repeat: no-repeat;
             }
         }
       </style>
     </head>
     <body>
       <?php require_once 'header.php'; ?>
-      <div class="one" style="background-image: url('public/img/photo/showrooms.jpg');">
-            <h1 class="TAcenter" style="padding-top: 40vh; color: white; font-size: 5rem;">SHOW ROOMS</h1>
+      <div class="one headerAllpage" style="background-image: url('public/img/photo/showrooms.jpg'); background-size: contain; background-repeat: no-repeat;">
+            <h1 class="TAcenter" style="padding-top: 20vh; color: white; font-size: 5rem;">SHOW ROOMS</h1>
       </div>
-      <div class="counter" style="height: 100vh;padding: 1vh 10vw; padding-top: 11vh; overflow: scroll;">
+      <div class="counter" style="margin-top: -50vh;height: 100vh;padding: 1vh 10vw; padding-top: 11vh; overflow: scroll;">
         <div class="country">Россия, Москва</div>
         <div class="flex col">
             <div class="Elems">

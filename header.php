@@ -88,9 +88,10 @@
     </div>
     <img src="public/img/icons/menu.png" alt="" class="menuBurger" onclick="menu(this)">
     <menu>
-        <a href="#" class="menuItem">НОВОСТИ</a>
+        <a href="news.php" class="menuItem">НОВОСТИ</a>
         <a href="#" class="menuItem">АКЦИИ</a>
-        <a href="#" class="menuItem">ПРОДУКТЫ</a>
+        <a href="products.php
+        " class="menuItem">ПРОДУКТЫ</a>
         <a href="showrooms.php" class="menuItem">SHOW ROOMS</a>
         <a href="#" class="menuItem">БИЗНЕС</a>
         <a href="#" class="menuItem">О КОМПАНИИ</a>

@@ -35,7 +35,7 @@
               в обычную питьевую воду, и вода станет биогенной,
               то есть живой.
           </p>
-          <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
+          <a href="#" class="linkBtn">ПОДРОБНЕЕ</a>
           <div class="paginationSlider VAmiddle">
               <span class="pagination activePagination" onclick="slide1()">⬤</span>
               <span class="pagination" onclick="slide2()">⬤</span>
@@ -54,7 +54,7 @@
               в обычную питьевую воду, и вода станет биогенной,
               то есть живой.
           </p>
-          <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
+          <a href="#" class="linkBtn">ПОДРОБНЕЕ</a>
           <div class="paginationSlider VAmiddle">
             <span class="pagination" onclick="slide1()">⬤</span>
             <span class="pagination activePagination" onclick="slide2()">⬤</span>
@@ -73,7 +73,7 @@
               в обычную питьевую воду, и вода станет биогенной,
               то есть живой.
           </p>
-          <a href="#" class="linkBtn">ПДРОБНЕЕ</a>
+          <a href="#" class="linkBtn">ПОДРОБНЕЕ</a>
           <div class="paginationSlider VAmiddle">
             <span class="pagination" onclick="slide1()">⬤</span>
             <span class="pagination" onclick="slide2()">⬤</span>
@@ -170,7 +170,7 @@
 
           <span class="arrow" onclick="backCarusel()"><</span>
 
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
@@ -183,7 +183,7 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div> 
@@ -196,7 +196,7 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>      
           </div>
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
@@ -209,7 +209,7 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
@@ -222,7 +222,7 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
@@ -235,12 +235,51 @@
               <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
             </div>
           </div>
-          <div class="flex col cartProduct none">
+          <div class="flex col cartProduct">
             <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
               <img src="public/img/photo/prod1.png" alt="" class="imgProd">
             </div>
             <div style="padding: 0 30px;" class="flex col aroundJC">
               <p>G-Bio5</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+          <div class="flex col cartProduct">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio6</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+          <div class="flex col cartProduct">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio7</p>
+              <span>достаточно добавить несколько капель
+              water for life в обычную питьевую
+              воду, и вода станет биогенной,
+              то есть живой. </span>
+              <a href="#" class="linkBtnX">ПОДРОБНЕЕ</a>
+            </div>
+          </div>
+          <div class="flex col cartProduct">
+            <div style="background: url('public/img/photo/cartBg.webp'); background-size: cover;">
+              <img src="public/img/photo/prod1.png" alt="" class="imgProd">
+            </div>
+            <div style="padding: 0 30px;" class="flex col aroundJC">
+              <p>G-Bio8</p>
               <span>достаточно добавить несколько капель
               water for life в обычную питьевую
               воду, и вода станет биогенной,
@@ -255,8 +294,36 @@
 
         
         <script>
-          // let carts = docuement.querySelectorAll('.cartPoduct');
-          // carts[0].style.display = 'block';
+          let carts = document.querySelectorAll('.cartProduct');
+          carts[0].style.display = 'none';
+          carts[1].style.display = 'none';
+          carts[2].style.display = 'none';
+          carts[6].style.display = 'none';
+          carts[7].style.display = 'none';
+          carts[8].style.display = 'none';
+
+          function backCarusel() {
+            carts[0].style.display = 'none';
+            carts[1].style.display = 'none';
+            carts[2].style.display = 'none';
+            carts[3].style.display = 'none';
+            carts[4].style.display = 'none';
+            carts[5].style.display = 'none';
+            carts[6].style.display = 'block';
+            carts[7].style.display = 'block';
+            carts[8].style.display = 'block';
+          }
+          function nextCarusel() {
+            carts[0].style.display = 'none';
+            carts[1].style.display = 'none';
+            carts[2].style.display = 'none';
+            carts[3].style.display = 'none';
+            carts[4].style.display = 'none';
+            carts[5].style.display = 'none';
+            carts[6].style.display = 'block';
+            carts[7].style.display = 'block';
+            carts[8].style.display = 'block';
+          }
         </script>
 
 
