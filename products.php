@@ -27,7 +27,8 @@
             color: rgb(63, 63, 65);
             padding: 4px!important;
             position: relative;
-            max-width: 15vw;
+            max-width: 25vw;
+			top: 2vh;
             left: 40vw;
             padding-left: 100px!important;
             font-size: 1.5rem;
@@ -39,6 +40,7 @@
         h3 {
             font-size: 2rem;
             color: rgb(75, 75, 77);
+			width: 150%;
             margin: 1rem 0;
         }
         .counter p {
@@ -159,12 +161,12 @@
             </div>
         </div>
         <div class="flex row cartsX" style="margin-top: -15vh;">
-            <div class="W25 TAcenter cartX">
+            <div class="W30 TAcenter cartX">
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Water for Life</p>
                 <span class="pPrice">14000тг</span>
             </div>
-            <div class="W25 TAcenter cartX">
+            <div class="W30 TAcenter cartX">
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Absolute Energy</p>
                 <span class="pPrice">28000тг</span>

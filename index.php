@@ -291,7 +291,11 @@
           <span class="arrow" onclick="nextCarusel()">></span>
 
         </div>
-
+          <div class="paginationSlider VAmiddle pag2">
+              <span class="pagination" onclick="carts1(this)">⬤</span>
+              <span class="pagination activePagination" onclick="carts2(this)">⬤</span>
+              <span class="pagination" onclick="carts3(this)">⬤</span>
+          </div>
         
         <script>
           let carts = document.querySelectorAll('.cartProduct');
@@ -303,15 +307,18 @@
           carts[8].style.display = 'none';
 
           function backCarusel() {
-            carts[0].style.display = 'none';
-            carts[1].style.display = 'none';
-            carts[2].style.display = 'none';
+            carts[0].style.display = 'block';
+            carts[1].style.display = 'block';
+            carts[2].style.display = 'block';
             carts[3].style.display = 'none';
             carts[4].style.display = 'none';
             carts[5].style.display = 'none';
-            carts[6].style.display = 'block';
-            carts[7].style.display = 'block';
-            carts[8].style.display = 'block';
+            carts[6].style.display = 'none';
+            carts[7].style.display = 'none';
+            carts[8].style.display = 'none';
+			  document.querySelector('.pag2 .activePagination').classList.remove('activePagination');
+			  let pag2 = document.querySelectorAll('.pag2 .pagination');
+			  pag2[0].classList.add('activePagination');
           }
           function nextCarusel() {
             carts[0].style.display = 'none';
@@ -323,7 +330,49 @@
             carts[6].style.display = 'block';
             carts[7].style.display = 'block';
             carts[8].style.display = 'block';
+			  document.querySelector('.pag2 .activePagination').classList.remove('activePagination');
+			  let pag2 = document.querySelectorAll('.pag2 .pagination');
+			  pag2[2].classList.add('activePagination');
           }
+		  function carts1(elem) {
+		  	carts[0].style.display = 'block';
+            carts[1].style.display = 'block';
+            carts[2].style.display = 'block';
+            carts[3].style.display = 'none';
+            carts[4].style.display = 'none';
+            carts[5].style.display = 'none';
+            carts[6].style.display = 'none';
+            carts[7].style.display = 'none';
+            carts[8].style.display = 'none';
+			  document.querySelector('.pag2 .activePagination').classList.remove('activePagination');
+			  elem.classList.add('activePagination');
+		  }
+					  function carts2(elem) {
+		  	carts[0].style.display = 'none';
+            carts[1].style.display = 'none';
+            carts[2].style.display = 'none';
+            carts[3].style.display = 'block';
+            carts[4].style.display = 'block';
+            carts[5].style.display = 'block';
+            carts[6].style.display = 'none';
+            carts[7].style.display = 'none';
+            carts[8].style.display = 'none';
+			  document.querySelector('.pag2 .activePagination').classList.remove('activePagination');
+			  elem.classList.add('activePagination');
+		  }
+					  function carts3(elem) {
+		  	carts[0].style.display = 'none';
+            carts[1].style.display = 'none';
+            carts[2].style.display = 'none';
+            carts[3].style.display = 'none';
+            carts[4].style.display = 'none';
+            carts[5].style.display = 'none';
+            carts[6].style.display = 'block';
+            carts[7].style.display = 'block';
+            carts[8].style.display = 'block';
+			  document.querySelector('.pag2 .activePagination').classList.remove('activePagination');
+			  elem.classList.add('activePagination');
+		  }
         </script>
 
 

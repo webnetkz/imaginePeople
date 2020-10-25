@@ -112,6 +112,7 @@ html, body {
     position: relative!important;
     top: 7rem!important;
     left: -30%;
+	width: 100%;
     flex-grow: 3;
 }
 .counterTwoDivImg {
@@ -151,14 +152,30 @@ html, body {
     background: white;
     margin: 10px;
     width: 100%;
+	animation: cartShow 0.5s linear;
+}
+@keyframes cartShow {
+	0% {
+		opacity: 0;
+		margin-bottom: 100px;
+	}
+	50% {
+		opacity: 0.5;
+		margin-bottom: 50px;
+	}
+	100% {
+		opacity: 1;
+		margin-bottom: 0px;
+	}
 }
 .cartProduct p {
     color: rgb(26, 133, 199);
     text-shadow: none;
     margin-top: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .cartProduct span {
+	font-size: 0.8rem;
     color: rgb(26, 133, 199);
 }
 .cartProduct > div {
