@@ -74,7 +74,47 @@
         .menuBurger:focus {
             right: -10px;
         }
+        #about {
+            display: none;
+            position: absolute;
+            bottom: 5vh;
+            left: 10vw;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px black;
+            background: white;
+            animation: cartShow 0.5s linear;
+        }
     }
+    #about {
+        display: none;
+        position: absolute;
+        top: 2rem;
+        left: 81%;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px black;
+        background: white;
+        animation: cartShow 0.5s linear;
+    }
+    #about li {
+        display: block;
+        color: rgb(73, 73, 77);
+        padding: 3px;
+        border-radius: 4px;
+    }
+    #about li:hover {
+        color: rgb(3, 3, 7);
+        background: linear-gradient(90deg, rgba(2,0,36,0.2) 0%, rgba(9,9,121,0.3) 35%, rgba(0,212,255,0.2) 100%);
+    }
+    #elemAbout:hover #about{
+        display: block;
+    }
+    #about:hover {
+        display: block;
+    }
+
+
 </style>
 <header class="flex centerAI betweenJC">
     <div class="logo" onclick="location.href = 'index.php'">
@@ -94,7 +134,13 @@
         " class="menuItem">ПРОДУКТЫ</a>
         <a href="showrooms.php" class="menuItem">SHOW ROOMS</a>
         <a href="#" class="menuItem">БИЗНЕС</a>
-        <a href="#" class="menuItem">О КОМПАНИИ</a>
+
+        <a href="#" class="menuItem" id="elemAbout">О КОМПАНИИ
+            <ul id="about">
+                <li onclick="location.href = 'contacts.php'">КОНТАКТЫ</li>
+            </ul>
+        </a>
+
     </menu>
 </header>
 <script>

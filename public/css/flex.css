@@ -19,3 +19,25 @@
 /* Align-Self */
 .startAS { align-self: flex-start; }
 .centerAS { align-self: center; }
+@media screen and (max-device-width: 900px) {
+   /* Flex container */
+    .colM { flex-direction: column!important }
+    .colRevM { flex-direction: column-reverse!important }
+    .rowM { flex-direction: row!important }
+    .rowRevM { flex-direction: row-reverse!important }
+    /* Justify-Content */
+    .startJCM { justify-content: flex-start!important }
+    .endJCM { justify-content: flex-end!important }
+    .centerJCM { justify-content: center!important }
+    .betweenJCM { justify-content: space-between!important }
+    .aroundJCM { justify-content: space-around!important }
+    /* Align-Items */
+    .startAIM { align-items: flex-start!important }
+    .endAIM { align-items: flex-end!important }
+    .centerAIM { align-items: center!important }
+    .stretchAIM { align-items: stretch!important }
+    .baselineAIM { align-items: baseline!important }
+    /* Align-Self */
+    .startASM { align-self: flex-start!important }
+    .centerASM { align-self: center!important } 
+}
