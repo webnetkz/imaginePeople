@@ -22,6 +22,9 @@
         font-size: 2rem;
         font-weight: 600;
     }
+    .people:hover {
+        cursor: pointer;
+    }
     .people1 { animation: spin 0.5s infinite; animation-delay: 0.5s;}
     .people2 { animation: spin 0.5s infinite; animation-delay: 0.8s;}
     .people3 { animation: spin 0.5s infinite; animation-delay: 1.1s;}
@@ -89,8 +92,8 @@
     #about {
         display: none;
         position: absolute;
-        top: 2rem;
-        left: 81%;
+        top: 2.5rem;
+        right: 3rem;
         padding: 10px;
         border-radius: 4px;
         box-shadow: 0 0 10px black;
@@ -129,15 +132,17 @@
     <img src="public/img/icons/menu.png" alt="" class="menuBurger" onclick="menu(this)">
     <menu>
         <a href="news.php" class="menuItem">НОВОСТИ</a>
-        <a href="#" class="menuItem">АКЦИИ</a>
-        <a href="products.php
-        " class="menuItem">ПРОДУКТЫ</a>
+        <!-- <a href="#" class="menuItem">АКЦИИ</a> -->
+        <a href="#" class="menuItem">ВОЗМОЖНОСТИ</a>
+        <a href="products.php" class="menuItem">ПРОДУКТЫ</a>
         <a href="showrooms.php" class="menuItem">SHOW ROOMS</a>
-        <a href="#" class="menuItem">БИЗНЕС</a>
+        <!-- <a href="#" class="menuItem">БИЗНЕС</a> -->
 
         <a href="#" class="menuItem" id="elemAbout">О КОМПАНИИ
             <ul id="about">
                 <li onclick="location.href = 'contacts.php'">КОНТАКТЫ</li>
+                <li onclick="location.href = 'https:\/\/www.youtube.com/channel/UC2Y_5U3kt6BinPyJa8_nl4A'">ВИДЕО</li>
+                
             </ul>
         </a>
 

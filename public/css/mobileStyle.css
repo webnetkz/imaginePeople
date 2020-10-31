@@ -103,7 +103,7 @@
         margin-top: -16vh;
         left: 0;
         width: 100vw;
-        height: 120vh;
+        height: 130vh;
         clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
         background-color: rgb(255, 255, 255);
         z-index: 2;
@@ -129,8 +129,8 @@
     .cartProduct {
         position: relative;
         background: white;
-        margin: 10px;
-        width: 100%;
+        margin: 50px;
+        min-width: 70vw!important;
     }
     .cartProduct p {
         color: rgb(26, 133, 199);

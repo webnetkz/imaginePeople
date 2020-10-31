@@ -149,24 +149,24 @@
       <div class="counter" style="height: 125vh;">
         <div class="country">Сортировка по:</div>
         <div class="flex row cartsX" style="margin-top: -15vh;">
-            <div class="W30 TAcenter cartX">
+            <div class="W30 TAcenter cartX" onclick='location.href = "product.php"'>
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Water for Life</p>
                 <span class="pPrice">14000тг</span>
             </div>
-            <div class="W30 TAcenter cartX">
+            <div class="W30 TAcenter cartX" onclick='location.href = "product.php"'>
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Absolute Energy</p>
                 <span class="pPrice">28000тг</span>
             </div>
         </div>
-        <div class="flex row cartsX" style="margin-top: -15vh;">
+        <div class="flex row cartsX" style="margin-top: -15vh;" onclick='location.href = "product.php"'>
             <div class="W30 TAcenter cartX">
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Water for Life</p>
                 <span class="pPrice">14000тг</span>
             </div>
-            <div class="W30 TAcenter cartX">
+            <div class="W30 TAcenter cartX" onclick='location.href = "product.php"'>
                 <img src="public/img/photo/prod2.png" alt="" class="imgProd">
                 <p class="pDes">Absolute Energy</p>
                 <span class="pPrice">28000тг</span>
