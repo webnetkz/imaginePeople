@@ -56,8 +56,8 @@
             }
             .content {
                 overflow-x: hidden!important;
-                margin-top: -30vh!important;
-                margin-bottom: 20vh!important;
+                margin-top: 5vh!important;
+                margin-bottom: 5vh!important;
                 padding: 1vh 2vw!important;
             }
             h1 {
@@ -121,10 +121,12 @@
             <h1 class="TAcenter" style="padding-top: 20vh; color: white; font-size: 5rem;">НОВОСТИ КОМПАНИИ</h1>
       </div>
       <div class="content">
-123
+
+
+    
       </div>      
-      <div>    
-        <?php require_once 'footer.php'; ?>
+      <?php require_once 'footer.php'; ?>
+
 
     
     </body>

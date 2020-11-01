@@ -17,6 +17,9 @@
     }
     .p1b1 {
         font-weight: 300;
+        width: 120%;
+        margin-left: -20%;
+        text-align: left;
     }
     .socialIcon {
         margin: 15px;
@@ -41,6 +44,12 @@
             border-left: 0!important;
             border-right: 0!important;
         }
+        .p1b1 {
+        font-weight: 300;
+        width: 100vw;
+        margin-left: -20vw;
+        text-align: center;
+    }
     }
 </style>
 <footer>
@@ -51,11 +60,11 @@
         <div class="flex TAcenter col" style="border-right: 1px solid rgb(200, 200, 200); padding-right: 65px;">
             <p>АДРЕС</p>
             <p class="p1b1" style="margin-top: 50px;">Республика Казахстан,</p>
-            <p class="p1b1">050040,город Алматы, </p>
+            <p class="p1b1">050040,город Алматы,</p>
             <p class="p1b1">мкр. Коктем-, дом 50</p>
         </div>
         <div class="flex TAcenter col">
-            <p>СОЦИАЛЬНЫЕ СЕТИ</p>
+            <p style="width: 100%; text-align: center;">СОЦИАЛЬНЫЕ СЕТИ</p>
             <div class="flex row beetwenJC" style="margin-top: 30px">
                 <div style="background: white; border-radius: 50%; width: 64px; height: 64px; margin: 10px;">
                     <img src="public/img/icons/youtube.png" alt="" class="socialIcon">
@@ -79,5 +88,5 @@
             <p class="p1b1" style="margin-top: 20px;">info@ip-one.net</p>
         </div>
     </div>
-    <p style="margin-top: 20px; font-weight: 300;">© 2020 ip-one.net</p>
+    <p style="margin-top: 20px; font-weight: 300; width: 100%; text-align: center;">© 2020 ip-one.net</p>
 </footer>
