@@ -2,12 +2,12 @@
     footer {
         background: rgb(75, 75, 77);
         color: white;
-        height: 50vh;
+        /* height: 57vh; */
         padding: 10vh 20% 2vh;
         text-align: center;
         position: relative;
         z-index: 999;
-        margin-top: -5vh;
+        margin-top: 5vh;
         clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
     }
     footer p {
@@ -79,6 +79,5 @@
             <p class="p1b1" style="margin-top: 20px;">info@ip-one.net</p>
         </div>
     </div>
-    <p style="margin-top: 20px; font-weight: 300;">© 2020</p>
+    <p style="margin-top: 20px; font-weight: 300;">© 2020 ip-one.net</p>
 </footer>
-<script src="public/js/main.js"></script>

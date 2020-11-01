@@ -1,4 +1,7 @@
 <style>
+    @import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+    @import 'public/css/flex.css';
+    @import 'public/css/helper.css';
     header {
         color: white;
         position: fixed;
@@ -160,5 +163,13 @@
             menuBurger.src = 'public/img/icons/close.png';
         }
     }
-
+</script>
+<script>
+    window.addEventListener('scroll', function() {
+        if(pageYOffset > 50) {
+            document.querySelector('header').style.background = 'rgb(0, 0, 0, 0.5)';
+        } else {
+            document.querySelector('header').style.background = 'rgb(0, 0, 0, 0)';
+        }
+    });
 </script>

@@ -25,23 +25,6 @@ html, body {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     animation: showSliderBg 0.5s linear;
 }
-.headerAllpage {
-    animation: showHeader 3s infinite;
-}
-@keyframes showHeader {
-    0% {
-
-    }
-    40% {
-        filter: brightness(1)
-    }
-    50% {
-        filter: brightness(2)
-    }
-    60% {
-        filter: brightness(1)
-    }
-}
 .two {
     display: none;
     box-sizing: border-box;
@@ -330,6 +313,12 @@ html, body {
 }
 .activePagination {
     color: rgb(255, 255, 255);
+    animation: showActivePag 1s infinite;
+}
+@keyframes showActivePag {
+    50% {
+        text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+    }
 }
 @keyframes showSliderElem {
     0% {

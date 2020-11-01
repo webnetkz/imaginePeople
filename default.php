@@ -23,36 +23,19 @@
             background-color: rgb(255, 255, 255);
             scroll-behavior: smooth;
             overflow-x: hidden;
-            height: 100vh;
+            height: 100%;
         }
-        [data-num]:before {
-          content: "+";
-          opacity: 0;
-        }
-        [data-num]:after {
-          content: "+";
-        }
-        .Elems {
-            height: 12rem;
-            padding: 5px;
-            margin: 1rem 0;
-        }
-        .Elems > h3, p {
+        h3, p {
             color: rgb(63, 63, 65);
             text-shadow: none;
         }
-        .Elems > h3 {
+        h3 {
             color: rgb(75, 75, 77);
             margin-bottom: 1rem;
         }
-        .Elems > p {
+        p {
             color: rgb(75, 75, 77);
             width: 50%;
-        }
-        .Elems hr {
-            border-color: rgb(75, 75, 77);
-            width: 50%!important;
-            margin: 1rem 0;
         }
         .newsImg {
             position: relative;
@@ -62,7 +45,7 @@
         }
 
         @media screen and (max-device-width: 900px) {
-            .Elems > p {
+            p {
                 color: rgb(75, 75, 77);
                 width: 100%;
             }
@@ -76,9 +59,6 @@
                 margin-top: -30vh!important;
                 margin-bottom: 20vh!important;
                 padding: 1vh 2vw!important;
-            }
-            .Elems {
-                height: 40rem;
             }
             h1 {
                 font-size: 3rem!important;
@@ -126,9 +106,9 @@
                 }
         }
         .content {
-            margin-top: -30vh;
+            margin-top: -5vh;
             margin-bottom: 45vh;
-            padding: 0 5% 0;
+            padding:  5% 0;
         }
         header {
             background: rgba(0, 0, 0, 0.5);
@@ -141,55 +121,11 @@
             <h1 class="TAcenter" style="padding-top: 20vh; color: white; font-size: 5rem;">НОВОСТИ КОМПАНИИ</h1>
       </div>
       <div class="content">
-        <div class="flex col H100">
-            <div class="Elems">
-                <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
-                <h3>Двойной бонус!</h3>
-                <p>«IMAGINE PEOPLE» рада представить вашему 
-                    вниманию новую программу "Двойной бонус"! 
-                    Если в течение августа вы подключаете 5 партнеров 
-                    на 5 одинаковых пакетов, то вы удваиваете свой бонус!
-                    <hr>
-                </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
-            </div>
-            <div class="Elems">
-                <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
-                <h3>Двойной бонус!</h3>
-                <p>«IMAGINE PEOPLE» рада представить вашему 
-                    вниманию новую программу "Двойной бонус"! 
-                    Если в течение августа вы подключаете 5 партнеров 
-                    на 5 одинаковых пакетов, то вы удваиваете свой бонус!
-                    <hr>
-                </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
-            </div>
-            <div class="Elems">
-                <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
-                <h3>Двойной бонус!</h3>
-                <p>«IMAGINE PEOPLE» рада представить вашему 
-                    вниманию новую программу "Двойной бонус"! 
-                    Если в течение августа вы подключаете 5 партнеров 
-                    на 5 одинаковых пакетов, то вы удваиваете свой бонус!
-                    <hr>
-                </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
-            </div>
-            
-        </div>
-      </div>
+123
+      </div>      
+      <div>    
+        <?php require_once 'footer.php'; ?>
 
-      <script>
-        window.addEventListener('scroll', function() {
-            if(pageYOffset > 50) {
-                document.querySelector('header').style.background = 'rgb(0, 0, 0, 0.5)';
-            } else {
-                document.querySelector('header').style.background = 'rgb(0, 0, 0, 0)';
-            }
-        }); 
-      </script>
-
-      <?php require_once 'footer.php'; ?>
     
     </body>
 </html>
