@@ -56,7 +56,7 @@
             }
             .content {
                 overflow-x: hidden!important;
-                margin-top: 5vh!important;
+                margin-top: 25vh!important;
                 margin-bottom: 5vh!important;
                 padding: 1vh 2vw!important;
             }
