@@ -66,6 +66,9 @@
             margin-bottom: 10vh;
             height: 100%!important;
         }
+        .counter > div {
+            padding: 1vh!important;
+        }
         .one {
                 background-image: url('public/img/photo/bgContacts.jpg')!important;
                 background-size: cover!important;
@@ -78,14 +81,14 @@
                 width: 100%;
             }
             .counter > div {
-                margin-top: 30vh!important;
-                height: 180vh!important;
+                margin-top: 0vh!important;
+                height: 100%!important;
                 padding: 1vh 2vw!important;
             }
             .counter {
                 overflow-x: hidden!important;
-                margin-top: -30vh!important;
-                margin-bottom: 20vh!important;
+                margin-top: 0vh!important;
+                margin-bottom: 0vh!important;
                 padding: 1vh 2vw!important;
             }
             .Elems {
@@ -121,11 +124,11 @@
       <div class="one headerAllpage" style="background-image: url('public/img/photo/news.jpg'); background-size: contain; background-repeat: no-repeat;">
             <h1 class="TAcenter" style="padding-top: 20vh; height: 130vh; color: white; font-size: 5rem;">НОВОСТИ КОМПАНИИ</h1>
       </div>
-      <div class="counter" style="padding-left: 10vw; padding-right: height: 100%; padding-top: 11vh; overflow: scroll;">
+      <div class="counter" style="padding-left: 10vw; height: 100%; padding-top: 11vh; overflow: scroll;">
         <h3 class="TAcenter">Представляем Вам команду Центрального офиса.</h3>
         <h3 class="TAcenter">Вы можете напрямую обратиться к нашим сотрудникам по интересующим Вас вопросам.</h3>
         <div class="flex row colM W100">
-            <div class="flex col W50" style="padding: 2rem;">
+            <div class="flex col W50" style="padding: 1rem;">
                 <p class="yel">WhatsApp</p>
                 <p>+7 727 364 53 30</p>
                 <p class="bur">Служба поддержки</p>
@@ -140,7 +143,7 @@
                 <p>feedback@ip-one.net</p>
             </div>
         </div>
-        <div class="W100" style="padding: 1rem;background: url('public/img/photo/contactsImg.jpg'); height: 11rem; background-size: cover;">
+        <div class="W100 imgCont" style="padding: 1rem;background: url('public/img/photo/contactsImg.jpg'); height: 11rem; background-size: cover;">
             <p style="position: relative; color: white; marign: 0;z-index: 999; text-align: right; font-size: 1.2rem;text-shadow: 0 0 5px black;">Собраться вместе есть начало</p>
             <p style="position: relative; color: white; marign: 0;z-index: 999; text-align: right; font-size: 1.2rem;text-shadow: 0 0 5px black;">Держаться вместе есть прогресс</p>
             <p style="position: relative; color: white; marign: 0;z-index: 999; text-align: right; font-size: 1.2rem;text-shadow: 0 0 5px black;">Работать вместе есть успех</p>

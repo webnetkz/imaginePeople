@@ -11,11 +11,13 @@
         height: 60px;
         padding: 0 30px;
         z-index: 99999999!important;
+        color: white!important;
     }
     .imagine {
         font-size: 2rem;
         font-weight: 100;
-		border-bottom: 3px solid rgba(0, 0, 0, 0);
+        border-bottom: 3px solid rgba(0, 0, 0, 0);
+        color: white!important;
     }
 	.imagine:hover {
 		border-bottom: 3px solid white;
@@ -24,6 +26,7 @@
     .people {
         font-size: 2rem;
         font-weight: 600;
+        color: white!important;
     }
     .people:hover {
         cursor: pointer;
@@ -38,6 +41,7 @@
         padding: 0 1rem;
         font-size: 1.2rem;
         border-bottom: 3px solid rgba(0, 0, 0, 0);
+        color: white!important;
     }
     .menuItem:hover {
         /* border-bottom: 3px solid rgb(255, 255, 255); */
@@ -136,7 +140,7 @@
     <menu>
         <a href="news.php" class="menuItem">НОВОСТИ</a>
         <!-- <a href="#" class="menuItem">АКЦИИ</a> -->
-        <a href="#" class="menuItem">ВОЗМОЖНОСТИ</a>
+        <a href="voz.php" class="menuItem">ВОЗМОЖНОСТИ</a>
         <a href="products.php" class="menuItem">ПРОДУКТЫ</a>
         <a href="showrooms.php" class="menuItem">SHOW ROOMS</a>
         <!-- <a href="#" class="menuItem">БИЗНЕС</a> -->
