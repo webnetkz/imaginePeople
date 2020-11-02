@@ -28,21 +28,33 @@
             padding: 5px;
             margin-left: -2.5%;
             font-size: 2.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .highlightBlue {
             background-color: rgb(57, 49, 133);
             padding: 5px;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .highlightOrange {
             background-color: rgb(239, 127, 26);
             padding: 5px;
+            font-size: 2.5rem;
+            margin-left: -2.5%;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .highlightOcean {
             background-color: rgb(0, 141, 210);
             padding: 5px;
+            font-size: 2.5rem;
+            margin-left: -2.5%;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
         html, body {
             font-family: 'Roboto', sans-serif;
@@ -137,7 +149,7 @@
         }
         .content {
             margin-top: -5vh;
-            margin-bottom: 45vh;
+            margin-bottom: 5vh;
             padding:  5% 5% 0!important;
             color: rgb(67, 66, 66);
         }
@@ -225,6 +237,26 @@
       <div class="topImg headerAllpage">
             <h1 style="padding-top: 20vh; color: white; font-size: 5rem;" class="TAcenter"><span class="highlight">БИЗНЕС</span> ВОЗМОЖНОСТИ</h1>
             <h2 style="padding-top: 3vh; color: white; font-size: 2.5rem;" class="TAcenter">СТАТЬ ПАРТНЕРОМ КОМПАНИИ МОЖЕТ КАЖДЫЙ!</h2>
+            <style>
+                @keyframes jump {
+                    0% {
+                        top: 7rem;
+                    }
+                    50% {
+                        top: 5rem;
+                    }
+                    70% {
+                        top: 7rem;
+                    }
+                    80% {
+                        top: 6.5rem;
+                    }
+                    100% {
+                        top: 7rem;
+                    }
+                }
+            </style>
+                <img src="public/img/photo/ars.png" alt="" style="width: 7rem; position: relative; left: 47%; top: 7rem; animation: jump 1s infinite;">
       </div>
       <div class="content">
         <h2 class="inline" style="padding-left: 1rem; margin-bottom: 1rem;">СТАТЬ ПАРТНЕРОМ КОМПАНИИ <h1 class="highlight inline">ОЧЕНЬ ПРОСТО</h1></h2>
@@ -361,7 +393,7 @@
         <br><br>
 
 
-        <h4><span class="highlightBlue" style="color: white; margin-left: -2.5%;font-size: 2.5rem;">1 &nbsp;&nbsp; БИНАРНЫЙ СТЕПОВЫЙ</span></h4>
+        <h4><span class="highlightBlue" style="color: white; margin-left: -2.5%;font-size: 2.5rem;">3 &nbsp;&nbsp; БИНАРНЫЙ СТЕПОВЫЙ</span></h4>
         <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;БОНУС</h4>
         <p>Для создания бизнес-структуры и получения права на все последующие бонусы<br>
         Вам необходимо подключить 2-х партнеров на любой из пакетов:<br>
@@ -394,14 +426,14 @@
         - 30 у.е. за каждый закрытый степ. <br>
         Условия: двое из лично приглашенных партнеров имеют ранг МЕНЕДЖЕР: один — <br>
         в левой ветке, один — в правой ветке. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 1000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">1000 у.е.</span></span> <br> <br>
         
         
         <span class="highlight" style="font-size: 1.6rem;">РЕГИОНАЛЬНЫЙ ДИРЕКТОР</span> <br><br>
         - 40 у.е. за каждый закрытый степ. <br>
         Условия: четверо из лично приглашенных партнеров имеют ранг МЕНЕДЖЕР: двое из них — <br>
         в левой ветке, двое — в правой ветке. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 3000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">3000 у.е.</span></span> <br> <br>
 
 
 
@@ -410,7 +442,7 @@
         Условия: восемь из лично приглашенных партнеров имеют ранг МЕНЕДЖЕР: четверо из них — <br>
         в левой ветке, четверо - в правой ветке. <br>
         Плюс закрытых 125 степов за прошлый месяц. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 5000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">5000 у.е.</span></span> <br> <br>
         
 
         <span class="highlight" style="font-size: 1.6rem;">МЕЖДУНАРОДНЫЙ ДИРЕКТОР</span> <br><br>
@@ -418,7 +450,7 @@
         Условия: восемь из лично приглашенных партнеров имеют ранг МЕНЕДЖЕР: пять из них — <br>
         в левой ветке, пять - в правой ветке. <br>
         Плюс закрытых 250 степов за прошлый месяц. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 7000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">7000 у.е.</span></span> <br> <br>
         
         <span class="highlight" style="font-size: 1.6rem;">СОВЕТНИК 1-ГО РАНГА</span> <br><br>
         - 55 у.е. за каждый закрытый степ. <br>
@@ -427,7 +459,7 @@
         Плюс двое из лично приглашенных партнеров имеют ранг МЕЖДУНАРОДНЫЙ ДИРЕКТОР : один из них <br>
         — в левой ветке, второй — в правой ветке. <br>
         Плюс закрытых 500 степов за прошлый месяц. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 8000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">8000 у.е.</span></span> <br> <br>
 
         <span class="highlight" style="font-size: 1.6rem;">СОВЕТНИК 2-ГО РАНГА</span> <br><br>
         - 55 у.е. за каждый закрытый степ. <br>
@@ -436,7 +468,7 @@
         Плюс трое из лично приглашенных партнеров имеют ранг МЕЖДУНАРОДНЫЙ ДИРЕКТОР : один из них <br>
         — в левой ветке, двое — в правой ветке (или в зеркальном отображении). <br>
         Плюс закрытых 750 степов за прошлый месяц. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 9000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">9000 у.е.</span></span> <br> <br>
         
 
         <span class="highlight" style="font-size: 1.6rem;">СОВЕТНИК 3-ГО РАНГА</span> <br><br>
@@ -446,7 +478,7 @@
         Плюс четверо из лично приглашенных партнеров имеют ранг МЕЖДУНАРОДНЫЙ ДИРЕКТОР : двое из <br>
         них — в левой ветке, двое — в правой ветке. <br>
         Плюс закрытых 1000 степов за прошлый месяц. <br><br>
-        <span class="highlight">Максимальная выплата в неделю - 10000 у.е.</span> <br> <br>
+        <span class="highlight">Максимальная выплата в неделю - <span style="color: red;">10000 у.е.</span></span> <br> <br>
         
         <span class="highlight" style="font-size: 1.6rem;">ЧЛЕН СОВЕТА ПРАВЛЕНИЯ</span> <br><br>
         - 60 у.е. за каждый закрытый степ. <br>
@@ -457,54 +489,188 @@
         Плюс закрытых 2000 степов за прошлый месяц. <br><br>
         <span class="highlight">Максимальная выплата в неделю - без ограничений.</span> <br> <br>
         
-        <h4><span class="highlightRed" style="color: white;">1 &nbsp;&nbsp; ЛИДЕРСКИЙ</span></h4>
+        <h4><span class="highlightRed" style="color: white;">4 &nbsp;&nbsp; ЛИДЕРСКИЙ</span></h4>
         <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;БОНУС</h4>
 
 
 
         
-
-        <h4><span class="highlightOrange">4 ЛИДЕРСКИЙ</span> БОНУС</h4>
-        <p>Партнер (Вы) получаете % от доходов бинарно-степового бонуса партнеров вашего 1,2,3,4 уровня.
-        Данный бонус мотивирует наставников обучать и оказывать поддержку партнерам
-        своей структуры.
+        <p>Партнер (Вы) получаете <span style="color: red; font-size: 2rem;">%</span> от доходов бинарно-степового бонуса партнеров вашего 1,2,3,4 уровня. <br>
+        Данный бонус мотивирует наставников обучать и оказывать поддержку партнерам <br>
+        своей структуры. <br>
         При расчете данного бонуса учитывается Ваша квалификация! <br>
+        </p>
+        <div class="tableNew" style="margin-bottom: 2rem;">
+            <img src="public/img/photo/tableNew.png" alt="" style="width:100%;">
+        </div>
+
+
         <span class="highlight">ВРЕМЕННЫЙ БОНУС РАНГ!</span>
 
-        Партнер при входе в бизнес на пакет "STANDART" получает на 180 дней временный ранг
-        "РЕГИОНАЛЬНЫЙ ДИРЕКТОР"* (дополнительная возможность сразу получать за степы по 40 у.е. и 10%
-        лидерский бонус).
+        <p>Партнер при входе в бизнес на пакет <span style="color: red;">"STANDART"</span> получает на 180 дней временный ранг <br>
+        "<span style="color: blue;">РЕГИОНАЛЬНЫЙ ДИРЕКТОР</span>"*</span> (дополнительная возможность сразу получать за степы по 40 у.е. и 10% <br>
+            лидерский бонус).
         </p>
-        <h4><span class="highlightOcean">5 РАНГОВЫЙ</span> БОНУС</h4>
-        <p><span class="highlight">ФЕДЕРАЛЬНЫЙ ДИРЕКТОР</span> - 5000у.е.
-        Условия: выполнить квалификацию «федеральный директор»
-        и продержать ее 3 месяца <br>
-        <span class="highlight"></span> - 10000у.е.
-        Условия: выполнить квалификацию «международный директор»
-        <span class="highlight">и продержать ее 3 месяца</span> <br>
-        СОВЕТНИК 1-ГО РАНГА - 20000у.е.
-        <span class="highlight">Условия: выполнить квалификацию</span> «советник 1-го ранга»
-        и продержать ее 3 месяца <br>
-        <span class="highlight">СОВЕТНИК 2-ГО РАНГА</span> - 30000у.е.
-        Условия: выполнить квалификацию «советник 2-го ранга»
-        и продержать ее 3 месяца <br>
-        <span class="highlight">СОВЕТНИК 3-ГО РАНГА</span> - 40000у.е.
-        Условия: выполнить квалификацию «советник 3-го ранга»
-        и продержать ее 3 месяца <br>
-        ЧЛЕН СОВЕТА ПРАВЛЕНИЯ - 50000у.е.
-        Условия: выполнить квалификацию «член совета правления»
+        <p>Партнер при входе в бизнес на пакет <span style="color: red;">"PROFESSIONAL"</span> получает на 180 дней временный ранг  <br>
+        "<span style="color: blue;">ФЕДЕРАЛЬНЫЙ ДИРЕКТОР</span>"*(дополнительная возможность сразу получать за степы по 45 у.е. и 15% и  <br>
+            10% лидерский бонус). <br>
+            *При выполнении квалификации "МЕНЕДЖЕР»
+        </p>
+
+
+        <h4><span class="highlightOcean" style="color: white;">5 &nbsp;&nbsp; РАНГОВЫЙ</span></h4>
+        <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;БОНУС</h4>
+
+        <p>Выплачивается один раз за достижение квалификационного ранга</p>
+        
+        <p><span class="highlight">ФЕДЕРАЛЬНЫЙ ДИРЕКТОР</span> - <span style="color: red;">5000у.е.</span><br>
+        Условия: выполнить квалификацию «федеральный директор» <br>
+        и продержать ее 3 месяца </p>
+
+        <p><span class="highlight">МЕЖДУНАРОДНЫЙ ДИРЕКТОР</span> - <span style="color: red;">10000у.е.</span> <br>
+            Условия: выполнить квалификацию «международный директор» <br>
+            <span class="highlight">и продержать ее 3 месяца</span>
+        </p>
+        <p>
+            СОВЕТНИК 1-ГО РАНГА - <span style="color: red;">20000у.е.</span> <br>
+            <span class="highlight">Условия: выполнить квалификацию</span> «советник 1-го ранга» <br>
+            и продержать ее 3 месяца </p>
+        <p>
+            <span class="highlight">СОВЕТНИК 2-ГО РАНГА</span> - <span style="color: red;">30000у.е.</span> <br>
+            Условия: выполнить квалификацию «советник 2-го ранга» <br>
+            и продержать ее 3 месяца </p>
+        <p>
+
+            <span class="highlight">СОВЕТНИК 3-ГО РАНГА</span> - <span style="color: red;">40000у.е.</span> <br>
+            Условия: выполнить квалификацию «советник 3-го ранга» <br>
+            и продержать ее 3 месяца </p>
+            ЧЛЕН СОВЕТА ПРАВЛЕНИЯ - <span style="color: red;">50000у.е.</span>
+        <p>
+        Условия: выполнить квалификацию «член совета правления» <br>
         и продержать ее 3 месяца</p>
 
-        <h4><span class="highlightRed">6 АВТО</span> БОНУС</h4>
-        <!-- Image -->
-        <h4><span class="highlight">7 ГЛОБАЛЬНЫЙ</span> БОНУС</h4>
-        <p>Компания выделяет 3% со всего товарооборота и делит их между партнерами в квалификациях:
-        Советник - 2% и Член совета правления -1%.
+        <br><br>
+        <h4><span class="highlightRed" style="color: white;">6 &nbsp;&nbsp; АВТО</span></h4>
+        <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;БОНУС</h4>
+
+
+        <div style="height: 100%;  width: 115%; margin-left: -7.5%; background: rgb(67, 66, 66); clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);">
+    
+            <style>
+                .mers1 {
+                    background: url('public/img/photo/1.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                .mers2 {
+                    background: url('public/img/photo/1.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                .mers3 {
+                    background: url('public/img/photo/3.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                .mers4 {
+                    background: url('public/img/photo/4.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+            </style>
+            <div style="clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); height: 50vh;" class="flex row">
+                <div class="W50 mers1"></div>
+                <div class="W50" style="padding-left: 8rem;">
+                    <p style="margin-top: 11vh; color: white; font-size: 2.5rem;">MERCEDES-BENZ</p>
+                    <br>
+                    <span class="highlight" style="font-size: 2.5rem; color: white;">A CLASSE</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="color: white;">
+                    Условия: выполнить квалификацию <br>
+                    «советник 1-го ранга» и продержать ее <br>
+                    3 месяца
+                </p>
+            </div>
+            </div>
+            <div style="clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); height: 50vh; margin-top: -5vh;" class="flex row">
+                <div class="W50" style="padding-left: 8rem;">
+                    <p style="margin-top: 11vh; color: white; font-size: 2.5rem;">MERCEDES-BENZ</p>
+                        <br>
+                        <span class="highlight" style="font-size: 2.5rem; color: white;">C CLASSE</span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="color: white;">
+                        Условия: выполнить квалификацию <br> 
+                        «советник 2-го ранга» и продержать ее <br>
+                        3 месяца
+                    </p>
+                </div>
+                <div class="W50 mers2"></div>
+            </div>
+            <div style="clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); height: 50vh; margin-top: -5vh;" class="flex row">
+                <div class="W50 mers3"></div>
+                <div class="W50" style="padding-left: 8rem;">
+                    <p style="margin-top: 11vh; color: white; font-size: 2.5rem;">MERCEDES-BENZ</p>
+                    <br>
+                    <span class="highlight" style="font-size: 2.5rem; color: white;">E CLASSE</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="color: white;">
+                    Условия: выполнить квалификацию <br>
+                    «советник 3-го ранга» и продержать ее <br>
+                    3 месяца
+                </p>
+            </div>
+            </div>
+            <div style="clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); height: 50vh; margin-top: -5vh;" class="flex row">
+                <div class="W50" style="padding-left: 8rem;">
+                    <p style="margin-top: 11vh; color: white; font-size: 2.5rem;">MERCEDES-BENZ</p>
+                        <br>
+                        <span class="highlight" style="font-size: 2.5rem; color: white;">S CLASSE</span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="color: white;">
+                        Условия: выполнить квалификацию <br>
+                        «член совета правления» и продержать ее <br>
+                        3 месяца
+                    </p>
+                </div>
+                <div class="W50 mers4"></div>
+            </div>
+    
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><span class="highlight" style="color: white; font-size: 2.5rem;">7 &nbsp;&nbsp; Глобавльный</span></h4>
+        <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;БОНУС</h4>
+
+
+        <p>Компания выделяет 3% со всего товарооборота и делит их между партнерами в квалификациях: <br>
+        Советник - 2% и Член совета правления -1%. <br>
         Бонус рассчитывается ежемесячно, выплачивается раз в полгода.</p>
-        <h4><span class="highlightRed">ОБРАТИТЕ</span> ВНИМАНИЕ!</h4>
+
+
+        <br>
+        <br>
+        <br>
+        <h4><span class="highlightRed" style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp; ОБРАТИТЕ</span></h4>
+        <h4 style="marign-top: 1rem; font-size: 2.5rem;">&nbsp;&nbsp;ВНИМАНИЕ!</h4>
+        <br><br>
         <p>
         <ol>
-            <li>В случае, если в Вашей структуре еще никого нет ни в левой, ни в правой ноге, Ваш первый
+            <li>В случае, если в Вашей структуре еще никого нет ни в левой, ни в правой ноге, Ваш первый 
         лично приглашенный встанет в левую ногу! В случае, если в левой ноге уже кто- то есть (не важно
         - лично приглашенный это или нет), а в правой ноге никого нет, то лично приглашенный встанет в
         правую ногу. В случае, если в обеих ногах на первом уровне уже кто-то есть, то лично

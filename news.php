@@ -74,7 +74,7 @@
             .content {
                 overflow-x: hidden!important;
                 margin-top: -30vh!important;
-                margin-bottom: 20vh!important;
+                margin-bottom: 35vh!important;
                 padding: 1vh 2vw!important;
             }
             .Elems {
@@ -127,7 +127,7 @@
         }
         .content {
             margin-top: -30vh;
-            margin-bottom: 45vh;
+            margin-bottom: 25vh;
             padding: 0 5% 0;
         }
         header {
@@ -142,7 +142,7 @@
       </div>
       <div class="content">
         <div class="flex col H100">
-            <div class="Elems">
+            <div class="Elems" onclick="location.href='new.php'">
                 <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
                 <h3>Двойной бонус!</h3>
                 <p>«IMAGINE PEOPLE» рада представить вашему 
@@ -151,9 +151,9 @@
                     на 5 одинаковых пакетов, то вы удваиваете свой бонус!
                     <hr>
                 </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
+                    <a href="new.php" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
             </div>
-            <div class="Elems">
+            <div class="Elems" onclick="location.href='new.php'">
                 <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
                 <h3>Двойной бонус!</h3>
                 <p>«IMAGINE PEOPLE» рада представить вашему 
@@ -162,9 +162,9 @@
                     на 5 одинаковых пакетов, то вы удваиваете свой бонус!
                     <hr>
                 </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
+                    <a href="new.php" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
             </div>
-            <div class="Elems">
+            <div class="Elems" onclick="location.href='new.php'">
                 <img src="public/img/photo/newsImg.jpg" alt="" class="newsImg inline">
                 <h3>Двойной бонус!</h3>
                 <p>«IMAGINE PEOPLE» рада представить вашему 
@@ -173,7 +173,7 @@
                     на 5 одинаковых пакетов, то вы удваиваете свой бонус!
                     <hr>
                 </p>
-                    <a href="#" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
+                    <a href="new.php" class="linkBtn" style="top: 0; left: 0;">ЧИТАТЬ ДАЛЕЕ</a>
             </div>
             
         </div>
