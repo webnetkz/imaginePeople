@@ -112,6 +112,7 @@
             .cartsX {
                 flex-direction: column!important;
             }
+
             .nav {
                 position: relative!important;
                 left: -5%!important;
@@ -203,6 +204,10 @@
         }
         .cartX {
             width: 100%;
+        }         
+        .cartX:hover {
+            cursor: pointer;
+            background: rgb(0, 152, 218);
         }
         .cartsX {
             flex-direction: column;

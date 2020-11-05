@@ -123,8 +123,34 @@
     #about:hover {
         display: block;
     }
-
-
+    .lang {
+        margin-right: 3rem;
+        padding: 3px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 5px;
+        font-size: 1.5rem;
+        vertical-align: middle;
+    }
+    .lang:hover {
+        cursor: pointer;
+        font-weight: 900;
+        border: 1px solid white;
+    }
+    .search {
+        padding: 4px;
+        border-radius: 3px;
+        margin-right: 2rem;
+        border: none;
+    }
+    .search:focus {
+        padding: 5px 20px;
+    }
+    .login {
+        height: 2rem; padding: 3px; border-radius: 4px; border: 1px solid white; vertical-align: middle; margin-right: 1rem;
+    }
+    .login:hover {
+        cursor: pointer;
+    }
 </style>
 <header class="flex centerAI betweenJC">
     <div class="logo" onclick="location.href = 'index.php'">
@@ -138,6 +164,9 @@
     </div>
     <img src="public/img/icons/menu.png" alt="" class="menuBurger" onclick="menu(this)">
     <menu>
+        <img src="public/img/icons/login.png" alt="" class="login">
+        <span class="lang">EN</span>
+        <input type="text" placeholder="Поиск" class="search">
         <a href="news.php" class="menuItem">НОВОСТИ</a>
         <!-- <a href="#" class="menuItem">АКЦИИ</a> -->
         <a href="voz.php" class="menuItem">ВОЗМОЖНОСТИ</a>
@@ -147,6 +176,11 @@
 
         <a href="#" class="menuItem" id="elemAbout">О КОМПАНИИ
             <ul id="about">
+                <li onclick="location.href = 'idea.php'">ИДЕЯ</li>
+                <li onclick="location.href = 'about.php'">О НАС</li>
+                <li onclick="location.href = 'docs.php'">ДОКУМЕНТЫ</li>
+                <li onclick="location.href = 'pred.php'">ПРЕДСТАВИТЕЛЬСТВА</li>
+                <li onclick="location.href = 'buy.php'">КАК КУПИТЬ</li>
                 <li onclick="location.href = 'contacts.php'">КОНТАКТЫ</li>
                 <li onclick="location.href = 'https:\/\/www.youtube.com/channel/UC2Y_5U3kt6BinPyJa8_nl4A'">ВИДЕО</li>
                 

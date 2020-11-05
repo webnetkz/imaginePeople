@@ -70,7 +70,7 @@
             padding: 1vh!important;
         }
         .one {
-                background-image: url('public/img/photo/bgContacts.jpg')!important;
+                background-image: url('public/img/photo/products.jpg')!important;
                 background-size: cover!important;
                 background-repeat: no-repeat;
             height: 60vh;
@@ -106,7 +106,7 @@
             height: 300px!important;
         }
             .one {
-                background-image: url('public/img/photo/news.jpg');
+                background-image: url('public/img/photo/products.jpg');
                 background-size: cover!important;
                 background-repeat: no-repeat;
             }

@@ -20,7 +20,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    background-image: url('../img/photo/slider1.webp');
+    background-image: url('../img/photo/user_ImgID2.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     animation: showSliderBg 0.5s linear;
@@ -34,7 +34,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    background-image: url('../img/photo/user_ImgID1.webp');
+    background-image: url('../img/photo/user_ImgID1.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     animation: showSliderBg 0.5s linear;
@@ -48,7 +48,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    background-image: url('../img/photo/cartBg.webp');
+    background-image: url('../img/photo/user_ImgID4.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     animation: showSliderBg 0.5s linear;
@@ -112,7 +112,7 @@ html, body {
     background-color: rgb(255, 255, 255);
     z-index: 2;
     padding: 10vh 0;
-    background-image: url('../img/photo/user_ImgID1.webp');
+    background-image: url('../img/photo/user_ImgID1.png');
     background-size: cover;
 }
 .carusel {

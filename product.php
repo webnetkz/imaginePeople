@@ -171,7 +171,7 @@
             <h1 class="TAcenter" style="padding-top: 20vh; color: white; text-shadow: 0 0 10px rgb(50, 100, 150); font-size: 5rem;">Weater for life</h1>
       </div>
       <div class="counter" style="height: 140vh;">
-         <div class="productHeader">
+         <div class="productHeader" style="margin-top: 2rem;">
             <span>СЕРИЯ</span><span>WATER FOR LIFE</span>
          </div>
          <div class="productBlock flex row">
